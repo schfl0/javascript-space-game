@@ -1,0 +1,26 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	width: 100vw;
+	height: 100vh;
+	font-family: sans-serif;
+	background-color: black;
+}
+
+.game-container {
+	padding: 2rem;
+	display: flex;
+	justify-content: center;
+	background-color: black;
+}
+
+#canvas {
+	background-color: black;
+	border: 1px solid white;
+}
